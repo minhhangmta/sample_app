@@ -1,0 +1,8 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".first_header" %></h1>
+<p>
+  <%= t ".intro_html",
+    :link => link_to(I18n.t(".static_pages.ror_tutorial"),
+      "http://www.railstutorial.org/") %>
+  <%= t ".app_name" %>
+</p>
