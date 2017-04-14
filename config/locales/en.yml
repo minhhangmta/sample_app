@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  title: Ruby on Rails Tutorial Sample App
   static_pages:
     ror_tutorial: Ruby on Rails Tutorial
     book: book
@@ -44,6 +45,3 @@ en:
       to_teach_html: to teach web development with %{link}
       ror: Ruby on Rails
       intro: This is the sample application for the tutorial.
-  layouts:
-    application:
-      title: Ruby on Rails Tutorial Sample App
