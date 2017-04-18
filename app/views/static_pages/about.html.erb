@@ -1,17 +1,17 @@
 <% provide :title, t(".title") %>
 <h1><%= t ".first_header" %></h1>
 <p>
-  <%= t ".the_html",
-    :link => link_to(I18n.t(".static_pages.ror_tutorial"),
+  <%= t "the_html",
+    link: link_to(t("ror_tutorial"),
       "http://www.railstutorial.org/") %>
   <%= t ".is_html",
-    :link => link_to(I18n.t(".static_pages.book"),
+    link: link_to(t(".static_pages.book"),
       "http://www.railstutorial.org/book") %>
   <%= t ".and_html",
-    :link => link_to(t(".ss"),
+    link: link_to(t(".ss"),
       "http://screencasts.railstutorial.org/") %>
   <%= t ".to_teach_html",
-    :link => link_to(t(".ror"),
+    link: link_to(t(".ror"),
       "http://rubyonrails.org/") %>
   <%= t ".intro" %>
 </p>

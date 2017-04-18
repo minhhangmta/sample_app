@@ -21,14 +21,17 @@
 
 en:
   title: Ruby on Rails Tutorial Sample App
+  ror_tutorial: Ruby on Rails Tutorial
+  the_html: The %{link}
   static_pages:
-    ror_tutorial: Ruby on Rails Tutorial
     book: book
     home:
       title: Home
-      first_header: Sample App
+      first_header: Welcome to the Sample App
       intro_html: This is the home page for the %{link}
       app_name: sample application.
+      sign_up: Sign up now!
+      logo_rails: Rails logo
     help:
       title: Help
       first_header: Help
@@ -38,10 +41,32 @@ en:
     about:
       title: About
       first_header: About
-      the_html: The %{link}
       is_html: is a %{link}
       ss: screencast series
       and_html: and %{link}
       to_teach_html: to teach web development with %{link}
-      ror: Ruby on Rails
+      ror: Ruby on Rails.
       intro: This is the sample application for the tutorial.
+    contact:
+      title: Contact
+      first_header: Contact
+      contact_intro_html: Contact the Ruby on Rails Tutorial
+        about the sample app at the %{link}
+      contact_page: contact page
+  layouts:
+    footer:
+      by_html: by %{link}
+      author_name: Michael Hartl
+      news: News
+      about: About
+      contact: Contact
+    header:
+      app_name: sample app
+      home: Home
+      help: Help
+      login: Login
+  users:
+    new:
+      title: Sign up
+      first_header: Sign up
+      intro: This will be a signup page for new users.
