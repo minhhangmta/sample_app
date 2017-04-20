@@ -68,5 +68,5 @@ en:
   users:
     new:
       title: Sign up
-      first_header: Sign up
-      intro: This will be a signup page for new users.
+      first_header: Users#new
+      content: Find me in app/views/users/new.html.erb
