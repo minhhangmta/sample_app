@@ -67,6 +67,14 @@ en:
       login: Login
   users:
     new:
+      create_new_acc: Create my account
       title: Sign up
-      first_header: Users#new
+      first_header: Sign up
       content: Find me in app/views/users/new.html.erb
+    show:
+      not_found: User not found!
+    create:
+      signup_success: Welcome to the Sample App!
+  shared:
+    form_contains: The form contains
+    error: error
