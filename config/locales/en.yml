@@ -23,24 +23,27 @@ en:
   title: Ruby on Rails Tutorial Sample App
   ror_tutorial: Ruby on Rails Tutorial
   the_html: The %{link}
+  home_text: Home
+  help_text: Help
+  login_text: Log in
+  logout_text: Log out
+  signup_text: Sign up
+  about_text: About
+  contact_text: Contact
+  news_text: News
+  signup_now: Sign up now!
   static_pages:
     book: book
     home:
-      title: Home
       first_header: Welcome to the Sample App
       intro_html: This is the home page for the %{link}
       app_name: sample application.
-      sign_up: Sign up now!
       logo_rails: Rails logo
     help:
-      title: Help
-      first_header: Help
       rails_tutorial: Rails Tutorial help section.
       get_help_html: Get help on the Ruby on Rails Tutorial at the %{link}
       to_get_help_html: To get help on this sample app, see the %{link}
     about:
-      title: About
-      first_header: About
       is_html: is a %{link}
       ss: screencast series
       and_html: and %{link}
@@ -48,8 +51,6 @@ en:
       ror: Ruby on Rails.
       intro: This is the sample application for the tutorial.
     contact:
-      title: Contact
-      first_header: Contact
       contact_intro_html: Contact the Ruby on Rails Tutorial
         about the sample app at the %{link}
       contact_page: contact page
@@ -57,19 +58,15 @@ en:
     footer:
       by_html: by %{link}
       author_name: Michael Hartl
-      news: News
-      about: About
-      contact: Contact
     header:
       app_name: sample app
-      home: Home
-      help: Help
-      login: Login
+      users_text: Users
+      account: Account
+      profile: Profile
+      settings: Settings
   users:
     new:
       create_new_acc: Create my account
-      title: Sign up
-      first_header: Sign up
       content: Find me in app/views/users/new.html.erb
     show:
       not_found: User not found!
@@ -78,3 +75,5 @@ en:
   shared:
     form_contains: The form contains
     error: error
+  sessions:
+    new_user: New user?
