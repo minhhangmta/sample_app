@@ -1,4 +1,4 @@
-<% provide :title, t(".title") %>
+<% provide :title, t("home_text") %>
 <div class="center jumbotron">
   <h1><%= t ".first_header" %></h1>
   <h2>
@@ -7,6 +7,6 @@
         "http://www.railstutorial.org/") %>
     <%= t ".app_name" %>
   </h2>
-  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to t("signup_now"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 <%= link_to image_tag("rails.png", alt: t(".logo_rails")), "http://rubyonrails.org/" %>
