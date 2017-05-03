@@ -72,8 +72,13 @@ en:
       not_found: User not found!
     create:
       signup_success: Welcome to the Sample App!
+  sessions:
+    create:
+      invalid: Invalid email/password combination
   shared:
     form_contains: The form contains
     error: error
   sessions:
-    new_user: New user?
+    new:
+      new_user: New user?
+      remember_text: Remember me on this computer
