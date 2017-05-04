@@ -65,16 +65,29 @@ en:
       profile: Profile
       settings: Settings
   users:
+    login_danger: Please log in
+    not_found: User not found!
+    other_user: Please log in an other user!
     new:
       create_new_acc: Create my account
       content: Find me in app/views/users/new.html.erb
-    show:
-      not_found: User not found!
     create:
       signup_success: Welcome to the Sample App!
-  sessions:
-    create:
-      invalid: Invalid email/password combination
+    edit:
+      title: Edit user
+      first_header: Update your profile
+      change: change
+      save: Save changes
+    update:
+      updated: Profile updated
+    index:
+      title: All users
+      first_header: All users
+    destroy:
+      deleted: User deleted
+    user:
+      confirm: You sure?
+      delete_txt: delete
   shared:
     form_contains: The form contains
     error: error
@@ -82,3 +95,5 @@ en:
     new:
       new_user: New user?
       remember_text: Remember me on this computer
+    create:
+      error: Invalid email/password combination
