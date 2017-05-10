@@ -73,6 +73,7 @@ en:
       content: Find me in app/views/users/new.html.erb
     create:
       signup_success: Welcome to the Sample App!
+      checkmail: Please check your email to activate your account.
     edit:
       title: Edit user
       first_header: Update your profile
@@ -97,3 +98,17 @@ en:
       remember_text: Remember me on this computer
     create:
       error: Invalid email/password combination
+      not_activated: Account not activated. Check your email for the activation link.
+  user_mailer:
+    account_activation:
+      acc_activation: Account activation
+      first_header: Sample App
+      hi: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    password_reset:
+      first_header: User#password_reset
+      find_me: find me in app/views/user_mailer/password_reset.html.erb
+  account_activations:
+    edit:
+      acc_activated: Account activated!
+      invalid_activation: Invalid activation link
